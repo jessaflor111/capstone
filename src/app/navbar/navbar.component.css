@@ -1,0 +1,18 @@
+nav {
+    background-color: blue;
+    text-align: center;
+    color: aliceblue;
+}
+
+.one {
+    padding: 10px 5px 10px 10px;
+    margin-left: 15px;
+}
+
+.two {
+    padding: 10px;
+}
+.three {
+    padding: 10px 10px 10px 5px;
+    margin-right: 15px;
+}
