@@ -4,6 +4,7 @@ import { DashComponent } from '../dash/dash.component';
 import { NavbarComponent } from '../navbar/navbar.component';
 import { QaComponent } from '../qa/qa.component';
 import { UserproComponent } from '../userpro/userpro.component';
+import { UserloginComponent } from '../userlogin/userlogin.component';
 
 const routes: Routes = [
   {
@@ -17,6 +18,10 @@ const routes: Routes = [
   {
     path: "userpro",
     component: UserproComponent
+  },
+  {
+    path: "userlogin",
+    component: UserloginComponent
   },
   {
     path: "",
