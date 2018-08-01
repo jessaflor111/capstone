@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { CommunityService } from '../community.service';
 
 @Component({
   selector: 'app-qa',
@@ -7,7 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class QaComponent implements OnInit {
 
-  constructor() { }
+  constructor(public community: CommunityService) {
+    this.community = community;
+    
+   }
 
   ngOnInit() {
   }
