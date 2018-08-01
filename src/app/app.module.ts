@@ -8,6 +8,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { DashComponent } from './dash/dash.component';
 import { QaComponent } from './qa/qa.component';
 import { UserproComponent } from './userpro/userpro.component';
+import { UserloginComponent } from './userlogin/userlogin.component';
 
 
 
@@ -18,7 +19,8 @@ import { UserproComponent } from './userpro/userpro.component';
     NavbarComponent,
     DashComponent,
     QaComponent,
-    UserproComponent
+    UserproComponent,
+    UserloginComponent
   ],
   imports: [
     BrowserModule,
