@@ -2,8 +2,13 @@
     width: 70px;
     height: 100px;
     margin-bottom: 10px;
+    border-radius: 50%;
 }
 .btn {
     float: right;
     margin-top: 60px;
+}
+.cardlook {
+    padding-top: 100px;
+    padding-bottom: 100px;
 }

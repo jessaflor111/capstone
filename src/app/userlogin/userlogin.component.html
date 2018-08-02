@@ -1,33 +1,12 @@
- <!-- Button to open the modal login form -->
- <button onclick="document.getElementById('id01').style.display='block'">Sign Up</button>
-
- <!-- The Modal -->
- <div id="id01" class="modal">
-   <span onclick="document.getElementById('id01').style.display='none'"
- class="close" title="Close Modal">&times;</span>
- 
-   <!-- Modal Content -->
-   <form class="modal-content animate" action="/action_page.php">
-     <div class="imgcontainer">
-       <img src="img_avatar2.png" alt="Avatar" class="avatar">
-     </div>
- 
-     <div class="container">
-       <label for="uname"><b>Username</b></label>
-       <input type="text" placeholder="Enter Username" name="uname" required>
- 
-       <label for="psw"><b>Password</b></label>
-       <input type="password" placeholder="Enter Password" name="psw" required>
- 
-       <button type="submit">Sign Up</button>
-       <label>
-         <input type="checkbox" checked="checked" name="remember"> Remember me
-       </label>
-     </div>
- 
-     <div class="container" style="background-color:#f1f1f1">
-       <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-       <span class="psw">Forgot <a href="#">password?</a></span>
-     </div>
-   </form>
- </div> 
+<div class="screen">
+    <div>
+        <i class="fas fa-users profileicon"></i>
+    </div>
+    <form id="sign-in">
+      <input class="info" id="username" type="text" name="username" placeholder="username">
+      <input class="info" id="password" type="password" name="password" placeholder="password">
+      <button id="login" type="submit">Sign Up</button>
+      <a href="#" class="form-link">Login</a>
+      <a href="#" class="form-link">Forgot Password?</a>
+    </form>
+</div>
